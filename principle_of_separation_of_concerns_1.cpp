@@ -58,9 +58,11 @@ class DataUser {
 
 int main() {
   DataUser dataUser;
+  
   dataUser.addData(1);
   dataUser.addData(2);
   dataUser.addData(3);
+  
   std::cout << "Result: " << dataUser.getResult() << '\n';
   return 0;
 }
