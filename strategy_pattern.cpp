@@ -5,12 +5,23 @@
 Q1
   Is there an element similar to Java's interface syntax in C++?
 A1
-  Yes, C++ has a concept similar to Java's interface known as an abstract class. An abstract class is a class that contains one or more pure virtual functions, which are denoted by the "= 0" syntax. These pure virtual functions act as placeholders for functions that must be defined in derived classes. Abstract classes cannot be instantiated and serve as a blueprint for creating derived classes.
+  Yes, C++ has a concept similar to Java's interface 
+   known as an abstract class. 
+  An abstract class is a class that contains one or more pure virtual functions, 
+   which are denoted by the "= 0" syntax. 
+  These pure virtual functions act as placeholders for functions that 
+   must be defined in derived classes. 
+  Abstract classes cannot be instantiated and serve as 
+   a blueprint for creating derived classes.
 Q2
   give me an example, particulurly on strategy pattern.
 A2
   (The code below)
-  In this example, the abstract class SortStrategy defines the interface for sorting algorithms. QuickSort and BubbleSort are concrete implementations of this interface. The Sorter class uses the SortStrategy to sort an array of integers. The client code can switch between different sorting algorithms by changing the sort strategy set in Sorter.
+  In this example, the abstract class SortStrategy defines the interface for sorting algorithms. 
+  QuickSort and BubbleSort are concrete implementations of this interface. 
+  The Sorter class uses the SortStrategy to sort an array of integers. 
+  The client code can switch between different sorting algorithms
+   by changing the sort strategy set in Sorter.
 */
 
 // can be tested at https://www.onlinegdb.com/online_c++_compiler
