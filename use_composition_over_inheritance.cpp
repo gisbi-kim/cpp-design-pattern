@@ -1,3 +1,17 @@
+/*
+ In this example, 
+ Car objects have an Engine, 
+  but instead of inheriting from Engine, 
+  Car objects use composition and contain an Engine object. 
+  
+ This allows Car objects to have the functionality of an Engine 
+  without inheriting its implementation. 
+  
+ Additionally, it provides a degree of decoupling between the Car and Engine classes, 
+  making it easier to change the implementation of the Engine class 
+  without affecting the Car class. 
+*/
+
 #include <iostream>
 #include <string>
 
