@@ -1,3 +1,18 @@
+/*
+ In this example, 
+ the AnimalShelter class contains a collection of Animal objects, 
+  but instead of inheriting from Animal, 
+  it uses composition and contains a collection of Animal objects. 
+ 
+ This allows the AnimalShelter class to have the functionality of an Animal 
+ without inheriting its implementation. 
+ 
+ Additionally, it provides a degree of decoupling between the AnimalShelter and Animal classes, 
+ making it easier to change the implementation of the Animal class 
+ without affecting the AnimalShelter class. 
+ 
+*/
+
 #include <iostream>
 #include <vector>
 
