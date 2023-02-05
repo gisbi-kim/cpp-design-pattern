@@ -1,3 +1,20 @@
+/*
+ This example demonstrates how the Decorator pattern 
+  can be used to dynamically add new options to a coffee order. 
+  
+  The Espresso class represents the base component of the pattern. 
+  The BeverageOption class serves as the abstract decorator, 
+  and the Milk and WhippedCream classes are concrete decorators 
+   that add new functionality to the coffee order. 
+   
+  The client code can dynamically create a coffee order and add options to it, 
+   as demonstrated in the main function. 
+    
+  The output of the program will be:
+   Espresso, milk, whipped cream
+   Cost: $3.5
+*/
+
 #include <iostream>
 #include <string>
 
